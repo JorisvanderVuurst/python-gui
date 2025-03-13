@@ -93,9 +93,9 @@ def download_and_play_audio():
 def create_response(choice):
     """Handle button clicks and show custom responses based on the choice"""
     responses = {
-        "Yes": "Good boy",
-        "No": "Bad boy",
-        "Maybe": "kys",
+        "Yes": "Good",
+        "No": "Bad",
+        "Maybe": "Maybe",
         "Bleh": "Me too"
     }
     
